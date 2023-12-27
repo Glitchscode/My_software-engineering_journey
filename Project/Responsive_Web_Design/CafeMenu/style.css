@@ -1,0 +1,96 @@
+body {
+    background-image: url(beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.menu {
+    background-color: burlywood;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1, h2, p {
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    font-family: serif;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: serif;
+}
+
+.item p {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.flavour {
+    width: 75%;
+    text-align: left;
+}
+
+.price {
+    width: 25%;
+    text-align: right;
+}
+
+hr {
+    background-color: brown;
+    border-color: brown;
+    height: 2px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+
+.established {
+    font-style: italic;
+    margin-top: -10px;
+}
+
+.bottom-line {
+    margin-top: 24px;
+}
+
+/*Footer*/
+footer p {
+    font-size: 18px;
+}
+
+a{
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+}

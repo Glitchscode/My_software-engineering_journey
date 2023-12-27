@@ -1,0 +1,65 @@
+#main {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+    color: rgb(51, 51, 51);
+}
+
+#title {
+    padding-top: 40px;
+}
+
+#img-div {
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    width: 35rem;
+    display: block;
+}
+
+#tribute-info {
+    margin: 0 auto;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 0.9em;
+}
+
+ul > li {
+    padding-top: 20px;
+}
+
+#tribute-info > h2 {
+    font-size: 1.2em;
+}
+
+.quote p {
+    max-width: 550px;
+    margin: 0 auto 10px;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+.wiki-link {
+    margin-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: rgb(71, 124, 167);
+}

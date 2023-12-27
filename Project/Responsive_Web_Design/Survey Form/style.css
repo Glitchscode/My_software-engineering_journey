@@ -1,0 +1,90 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(12, 100, 255, 0.5), rgba(50, 120, 255, 0.5)), url(beans.jpg);
+    margin: 0;
+    font-size: 20px;
+    padding: 20px 0;
+    font-family: sans-serif;
+    color: #f6f9f8;
+}
+#description {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+#survey-form {
+    margin: 0.5em auto;
+    text-align: center;
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    background-color: rgba(7, 54, 136, 0.8);
+    padding: 40px 50px;
+    border-radius: 5px;
+}
+#name, #email, #number {
+    height: 30px;
+    border-radius: 3px;
+    margin: 8px 0 25px 0;
+}
+#name-label, #email-label, #number-label {
+    text-align: left;
+    display: block;
+}
+label{
+    text-align: left;
+    display: block;
+} 
+.inline{
+    width: unset;
+    vertical-align: middle;
+    margin: 0 0.1em 0 0;
+    height: 30px;
+}
+input, select, textarea{
+    width: 100%;
+    border: none;
+    height: 40px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+textarea{
+    height: 100px;
+}
+.p1 {
+    margin-bottom: 5px;
+    text-align: left;
+}
+div{
+    margin-bottom: 10px;
+}
+.top-margin {
+    margin-top: 25px;
+}
+#submit {
+    display: block;
+    width: 100%;
+    margin: 1em auto;
+    max-width: 500px;
+    min-width: 300px;
+    height: 6vh;
+    font-size: 16px;
+    background-color: #0c42ae;
+    color: #ffffff;
+}
+
+#submit:hover {
+    border: 2px solid #000;
+}
+
+#submit:visited {
+    background-color: #ffffff;
+    color: #000;
+}
